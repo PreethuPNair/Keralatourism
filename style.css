@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+
+}
+header
+{
+    height: 5em;
+}
+.head{
+    float: right;
+    margin-top: 30px;
+    margin-left: 55px;
+    margin-right: 20px;
+}
+.head a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none ;
+    color:white;
+    border: 1px solid white;
+    padding: 9px;
+    margin-right: 8px;
+}
+.head a:hover{
+
+    background-color: whitesmoke;
+    color: black;
+    transition: 0.5s ease-in-out;
+
+
+}
+    .login{
+        float: right;
+        border: 2px solid white;
+        height: 15em;
+        margin-top: 5%;
+        margin-right: 2%;
+        padding: 30px;
+        background-color: whitesmoke;
+    }
+    .login h2{
+        text-align: center;
+    }
+    .login input{
+        height: 1.5em;
+    }
+    .login #log-btn{
+        width: 100%;
+        height: 1.8em;
+        color: white;
+        background-color: dodgerblue;
+        border: 1px solid dodgerblue;
+
+    }
+    h1{
+        font-size: 3em;
+        font-weight: 700;
+        color: white;
+        margin: 0 0 1.5em;
+        text-align: center;
+        margin-top: 200px;
+        margin-left: 10%;
+    }
+    
+    .sign{
+        float: center;
+        border: 2px solid white;
+        height: 15em;
+        margin-top: 10%;
+        margin-right: 35%;
+        margin-left: 35%;
+        padding: 30px;
+        background-color: beige;
+    }
+    .sign h2{
+        text-align: center;
+    }
+    .sign input{
+        height: 1.5em;
+    }
+    .sbtn #signup-btn{
+        width: 100%;
+        height: 1.8em;
+        color: white;
+        background-color: dodgerblue;
+        border: 1px solid dodgerblue;
+    }
+   .dis {
+       color: beige;
+   }
+   .dis a{
+          text-align: center;
+          color: greenyellow;
+          font-size: 20px;
+          
+        
+   }
+    body .list{
+
+        background-image: url("../arts.jpg");
+        color: red;
+        
+   }
+   .list h1{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 10px;
+
+   }
+   .list ul{
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        color: red;
+   }
+   .history{
+       color: blanchedalmond;
+   }
+   .history h1{
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 20px;
+
+   }
+   .history p{
+       font-family: 'Times New Roman', Times, serif;
+       font-size: 20px;
+   }
+
+  
